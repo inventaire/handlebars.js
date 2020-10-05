@@ -78,7 +78,8 @@
   "types": "types/index.d.ts",
   "browser": {
     ".": "./dist/cjs/handlebars.js",
-    "./runtime": "./dist/cjs/handlebars.runtime.js"
+    "./runtime": "./dist/cjs/handlebars.runtime.js",
+    "fs": false
   },
   "bin": {
     "handlebars": "bin/handlebars"
